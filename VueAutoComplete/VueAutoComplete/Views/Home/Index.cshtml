@@ -1,0 +1,22 @@
+﻿
+    
+<div id="app">
+    <h2>Hello World!</h2>
+    <input type="text"
+           v-model="searchValue"
+           v-on:keydown.up="onArrowUp"
+           v-on:keydown.down="onArrowDown"
+           v-on:keydown.enter="onEnter"
+           v-on:keydown.esc="onEsc">
+    <ul v-show="isOpen" class="list-group mb-3">
+        <li v-for="(result, i) in results"
+            :key="i"
+            class="list-group-item"
+            v-on:click="setResult(result)"
+            :class="{'active': i === currentlyCounter}">
+            {{ result }}
+        </li>
+    </ul>
+</div>
+
+<script src="~/scripts/Home/index.js"></script>
