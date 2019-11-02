@@ -3,3 +3,8 @@
 ################################################################################
 
 /.vs
+/VueAutoComplete/VueAutoComplete/obj
+/VueAutoComplete/VueAutoComplete/node_modules
+/VueAutoComplete/VueAutoComplete/bin/Debug/netcoreapp2.1
+/VueAutoComplete/VueAutoComplete
+/VueAutoComplete/.vs
