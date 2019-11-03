@@ -1,5 +1,5 @@
 
-ASP.NET dotnet Core MVC with Vue Example
+Vue Auto Complete Example
 =================
 
 ASP.NET dotnet Core MVC Project with Vue.
