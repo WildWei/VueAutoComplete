@@ -30,7 +30,7 @@ npm install
 
 To run a local copy in development mode, execute:
 ```
-dotnet run watch
+dotnet watch run
 ```
 Go to http://localhost:5000 in your browser.
 
